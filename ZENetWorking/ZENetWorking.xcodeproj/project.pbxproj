@@ -7,204 +7,289 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		54176E901D79391600A82646 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54176E8F1D79391600A82646 /* AppDelegate.swift */; };
-		54176E921D79391600A82646 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54176E911D79391600A82646 /* ViewController.swift */; };
-		54176E951D79391600A82646 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 54176E931D79391600A82646 /* Main.storyboard */; };
-		54176E971D79391700A82646 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 54176E961D79391700A82646 /* Assets.xcassets */; };
-		54176E9A1D79391700A82646 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 54176E981D79391700A82646 /* LaunchScreen.storyboard */; };
-		54176EA51D79391700A82646 /* ZENetWorkingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54176EA41D79391700A82646 /* ZENetWorkingTests.swift */; };
-		54176EB01D79391700A82646 /* ZENetWorkingUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54176EAF1D79391700A82646 /* ZENetWorkingUITests.swift */; };
+		542A6E261D76BFC3001E7EE0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 542A6E251D76BFC3001E7EE0 /* AppDelegate.swift */; };
+		542A6E281D76BFC3001E7EE0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 542A6E271D76BFC3001E7EE0 /* ViewController.swift */; };
+		542A6E2B1D76BFC3001E7EE0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 542A6E291D76BFC3001E7EE0 /* Main.storyboard */; };
+		542A6E2D1D76BFC3001E7EE0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 542A6E2C1D76BFC3001E7EE0 /* Assets.xcassets */; };
+		542A6E301D76BFC3001E7EE0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 542A6E2E1D76BFC3001E7EE0 /* LaunchScreen.storyboard */; };
+		542A6E3B1D76BFC3001E7EE0 /* ZENetworkingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 542A6E3A1D76BFC3001E7EE0 /* ZENetworkingTests.swift */; };
+		542A6E461D76BFC3001E7EE0 /* ZENetworkingUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 542A6E451D76BFC3001E7EE0 /* ZENetworkingUITests.swift */; };
+		542A6E5A1D76CC52001E7EE0 /* ZENetRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 542A6E591D76CC52001E7EE0 /* ZENetRequest.swift */; };
+		542A6E5C1D76D2F3001E7EE0 /* ZENetworkItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 542A6E5B1D76D2F3001E7EE0 /* ZENetworkItem.swift */; };
+		542A6E5E1D76D304001E7EE0 /* ZENetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 542A6E5D1D76D304001E7EE0 /* ZENetworkManager.swift */; };
+		5445D3D01D77FB7900C34BDD /* ZENoNetView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5445D3CF1D77FB7900C34BDD /* ZENoNetView.xib */; };
+		5445D3D61D78132800C34BDD /* ZEHUD.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5445D3D51D78132800C34BDD /* ZEHUD.swift */; };
+		5445D3D81D782EE800C34BDD /* ZEResource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5445D3D71D782EE800C34BDD /* ZEResource.swift */; };
+		546295D81D77C60200F581E1 /* ZEExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 546295D71D77C60200F581E1 /* ZEExtension.swift */; };
+		546295E01D77D43D00F581E1 /* ZENoNetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 546295DF1D77D43D00F581E1 /* ZENoNetView.swift */; };
+		546295E21D77D8C700F581E1 /* ZENetAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 546295E11D77D8C700F581E1 /* ZENetAPI.swift */; };
+		58B681AE5A927ED84330B7C6 /* Pods_ZENetworking.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 424235EFC90BB570DE815B38 /* Pods_ZENetworking.framework */; };
+		79F2E0B31FE4150793E88B10 /* Pods_ZENetworkingUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8384C176021698E0E81648B1 /* Pods_ZENetworkingUITests.framework */; };
+		ABC3495CA9F40B0CB6C4DDB1 /* Pods_ZENetworkingTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CC798C6C56EFC896B29EF55A /* Pods_ZENetworkingTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		54176EA11D79391700A82646 /* PBXContainerItemProxy */ = {
+		542A6E371D76BFC3001E7EE0 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 54176E841D79391600A82646 /* Project object */;
+			containerPortal = 542A6E1A1D76BFC2001E7EE0 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 54176E8B1D79391600A82646;
-			remoteInfo = ZENetWorking;
+			remoteGlobalIDString = 542A6E211D76BFC2001E7EE0;
+			remoteInfo = ZENetworking;
 		};
-		54176EAC1D79391700A82646 /* PBXContainerItemProxy */ = {
+		542A6E421D76BFC3001E7EE0 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 54176E841D79391600A82646 /* Project object */;
+			containerPortal = 542A6E1A1D76BFC2001E7EE0 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 54176E8B1D79391600A82646;
-			remoteInfo = ZENetWorking;
+			remoteGlobalIDString = 542A6E211D76BFC2001E7EE0;
+			remoteInfo = ZENetworking;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		54176E8C1D79391600A82646 /* ZENetWorking.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZENetWorking.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		54176E8F1D79391600A82646 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		54176E911D79391600A82646 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		54176E941D79391600A82646 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		54176E961D79391700A82646 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		54176E991D79391700A82646 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		54176E9B1D79391700A82646 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		54176EA01D79391700A82646 /* ZENetWorkingTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZENetWorkingTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		54176EA41D79391700A82646 /* ZENetWorkingTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZENetWorkingTests.swift; sourceTree = "<group>"; };
-		54176EA61D79391700A82646 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		54176EAB1D79391700A82646 /* ZENetWorkingUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZENetWorkingUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		54176EAF1D79391700A82646 /* ZENetWorkingUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZENetWorkingUITests.swift; sourceTree = "<group>"; };
-		54176EB11D79391700A82646 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		139FFC43F9F07011E89A96EB /* Pods-ZENetworkingUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZENetworkingUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ZENetworkingUITests/Pods-ZENetworkingUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		1A7BF432C698F2E714C39D9A /* Pods-ZENetworking.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZENetworking.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ZENetworking/Pods-ZENetworking.debug.xcconfig"; sourceTree = "<group>"; };
+		380B6C13DB0BF66FD336E617 /* Pods-ZENetworking.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZENetworking.release.xcconfig"; path = "Pods/Target Support Files/Pods-ZENetworking/Pods-ZENetworking.release.xcconfig"; sourceTree = "<group>"; };
+		424235EFC90BB570DE815B38 /* Pods_ZENetworking.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ZENetworking.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		542A6E221D76BFC2001E7EE0 /* ZENetworking.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZENetworking.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		542A6E251D76BFC3001E7EE0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		542A6E271D76BFC3001E7EE0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		542A6E2A1D76BFC3001E7EE0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		542A6E2C1D76BFC3001E7EE0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		542A6E2F1D76BFC3001E7EE0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		542A6E311D76BFC3001E7EE0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		542A6E361D76BFC3001E7EE0 /* ZENetworkingTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZENetworkingTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		542A6E3A1D76BFC3001E7EE0 /* ZENetworkingTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZENetworkingTests.swift; sourceTree = "<group>"; };
+		542A6E3C1D76BFC3001E7EE0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		542A6E411D76BFC3001E7EE0 /* ZENetworkingUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZENetworkingUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		542A6E451D76BFC3001E7EE0 /* ZENetworkingUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZENetworkingUITests.swift; sourceTree = "<group>"; };
+		542A6E471D76BFC3001E7EE0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		542A6E591D76CC52001E7EE0 /* ZENetRequest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZENetRequest.swift; sourceTree = "<group>"; };
+		542A6E5B1D76D2F3001E7EE0 /* ZENetworkItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZENetworkItem.swift; sourceTree = "<group>"; };
+		542A6E5D1D76D304001E7EE0 /* ZENetworkManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZENetworkManager.swift; sourceTree = "<group>"; };
+		5445D3CF1D77FB7900C34BDD /* ZENoNetView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ZENoNetView.xib; sourceTree = "<group>"; };
+		5445D3D51D78132800C34BDD /* ZEHUD.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZEHUD.swift; sourceTree = "<group>"; };
+		5445D3D71D782EE800C34BDD /* ZEResource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZEResource.swift; sourceTree = "<group>"; };
+		546295D71D77C60200F581E1 /* ZEExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZEExtension.swift; sourceTree = "<group>"; };
+		546295DA1D77CFE000F581E1 /* ZENetworking-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ZENetworking-Bridging-Header.h"; sourceTree = "<group>"; };
+		546295DF1D77D43D00F581E1 /* ZENoNetView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZENoNetView.swift; sourceTree = "<group>"; };
+		546295E11D77D8C700F581E1 /* ZENetAPI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZENetAPI.swift; sourceTree = "<group>"; };
+		5B5F87A075DE337D2D096AAF /* Pods-ZENetworkingUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZENetworkingUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ZENetworkingUITests/Pods-ZENetworkingUITests.release.xcconfig"; sourceTree = "<group>"; };
+		6E10CD1C9BDB1D5CBD1D5DA0 /* Pods-ZENetworkingTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZENetworkingTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ZENetworkingTests/Pods-ZENetworkingTests.debug.xcconfig"; sourceTree = "<group>"; };
+		8384C176021698E0E81648B1 /* Pods_ZENetworkingUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ZENetworkingUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CC798C6C56EFC896B29EF55A /* Pods_ZENetworkingTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ZENetworkingTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E767972D793F2DA9FF0A5938 /* Pods-ZENetworkingTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZENetworkingTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ZENetworkingTests/Pods-ZENetworkingTests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		54176E891D79391600A82646 /* Frameworks */ = {
+		542A6E1F1D76BFC2001E7EE0 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				58B681AE5A927ED84330B7C6 /* Pods_ZENetworking.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		54176E9D1D79391700A82646 /* Frameworks */ = {
+		542A6E331D76BFC3001E7EE0 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ABC3495CA9F40B0CB6C4DDB1 /* Pods_ZENetworkingTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		54176EA81D79391700A82646 /* Frameworks */ = {
+		542A6E3E1D76BFC3001E7EE0 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				79F2E0B31FE4150793E88B10 /* Pods_ZENetworkingUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		54176E831D79391600A82646 = {
+		527BB84B6CCFA3EECD8FAC68 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				54176E8E1D79391600A82646 /* ZENetWorking */,
-				54176EA31D79391700A82646 /* ZENetWorkingTests */,
-				54176EAE1D79391700A82646 /* ZENetWorkingUITests */,
-				54176E8D1D79391600A82646 /* Products */,
+				424235EFC90BB570DE815B38 /* Pods_ZENetworking.framework */,
+				CC798C6C56EFC896B29EF55A /* Pods_ZENetworkingTests.framework */,
+				8384C176021698E0E81648B1 /* Pods_ZENetworkingUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		542A6E191D76BFC2001E7EE0 = {
+			isa = PBXGroup;
+			children = (
+				542A6E241D76BFC3001E7EE0 /* ZENetworking */,
+				542A6E391D76BFC3001E7EE0 /* ZENetworkingTests */,
+				542A6E441D76BFC3001E7EE0 /* ZENetworkingUITests */,
+				542A6E231D76BFC2001E7EE0 /* Products */,
+				CC415511E0F0C30D3863B9E7 /* Pods */,
+				527BB84B6CCFA3EECD8FAC68 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
-		54176E8D1D79391600A82646 /* Products */ = {
+		542A6E231D76BFC2001E7EE0 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				54176E8C1D79391600A82646 /* ZENetWorking.app */,
-				54176EA01D79391700A82646 /* ZENetWorkingTests.xctest */,
-				54176EAB1D79391700A82646 /* ZENetWorkingUITests.xctest */,
+				542A6E221D76BFC2001E7EE0 /* ZENetworking.app */,
+				542A6E361D76BFC3001E7EE0 /* ZENetworkingTests.xctest */,
+				542A6E411D76BFC3001E7EE0 /* ZENetworkingUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		54176E8E1D79391600A82646 /* ZENetWorking */ = {
+		542A6E241D76BFC3001E7EE0 /* ZENetworking */ = {
 			isa = PBXGroup;
 			children = (
-				54176E8F1D79391600A82646 /* AppDelegate.swift */,
-				54176E911D79391600A82646 /* ViewController.swift */,
-				54176E931D79391600A82646 /* Main.storyboard */,
-				54176E961D79391700A82646 /* Assets.xcassets */,
-				54176E981D79391700A82646 /* LaunchScreen.storyboard */,
-				54176E9B1D79391700A82646 /* Info.plist */,
+				546295DA1D77CFE000F581E1 /* ZENetworking-Bridging-Header.h */,
+				542A6E251D76BFC3001E7EE0 /* AppDelegate.swift */,
+				542A6E271D76BFC3001E7EE0 /* ViewController.swift */,
+				5445D3D71D782EE800C34BDD /* ZEResource.swift */,
+				542A6E291D76BFC3001E7EE0 /* Main.storyboard */,
+				542A6E2C1D76BFC3001E7EE0 /* Assets.xcassets */,
+				542A6E2E1D76BFC3001E7EE0 /* LaunchScreen.storyboard */,
+				542A6E311D76BFC3001E7EE0 /* Info.plist */,
+				5445D3D41D7812CE00C34BDD /* Networking */,
+				546295D71D77C60200F581E1 /* ZEExtension.swift */,
+				5445D3D51D78132800C34BDD /* ZEHUD.swift */,
 			);
-			path = ZENetWorking;
+			path = ZENetworking;
 			sourceTree = "<group>";
 		};
-		54176EA31D79391700A82646 /* ZENetWorkingTests */ = {
+		542A6E391D76BFC3001E7EE0 /* ZENetworkingTests */ = {
 			isa = PBXGroup;
 			children = (
-				54176EA41D79391700A82646 /* ZENetWorkingTests.swift */,
-				54176EA61D79391700A82646 /* Info.plist */,
+				542A6E3A1D76BFC3001E7EE0 /* ZENetworkingTests.swift */,
+				542A6E3C1D76BFC3001E7EE0 /* Info.plist */,
 			);
-			path = ZENetWorkingTests;
+			path = ZENetworkingTests;
 			sourceTree = "<group>";
 		};
-		54176EAE1D79391700A82646 /* ZENetWorkingUITests */ = {
+		542A6E441D76BFC3001E7EE0 /* ZENetworkingUITests */ = {
 			isa = PBXGroup;
 			children = (
-				54176EAF1D79391700A82646 /* ZENetWorkingUITests.swift */,
-				54176EB11D79391700A82646 /* Info.plist */,
+				542A6E451D76BFC3001E7EE0 /* ZENetworkingUITests.swift */,
+				542A6E471D76BFC3001E7EE0 /* Info.plist */,
 			);
-			path = ZENetWorkingUITests;
+			path = ZENetworkingUITests;
+			sourceTree = "<group>";
+		};
+		5445D3D41D7812CE00C34BDD /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				542A6E591D76CC52001E7EE0 /* ZENetRequest.swift */,
+				546295E11D77D8C700F581E1 /* ZENetAPI.swift */,
+				542A6E5B1D76D2F3001E7EE0 /* ZENetworkItem.swift */,
+				542A6E5D1D76D304001E7EE0 /* ZENetworkManager.swift */,
+				546295DF1D77D43D00F581E1 /* ZENoNetView.swift */,
+				5445D3CF1D77FB7900C34BDD /* ZENoNetView.xib */,
+			);
+			name = Networking;
+			sourceTree = "<group>";
+		};
+		CC415511E0F0C30D3863B9E7 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1A7BF432C698F2E714C39D9A /* Pods-ZENetworking.debug.xcconfig */,
+				380B6C13DB0BF66FD336E617 /* Pods-ZENetworking.release.xcconfig */,
+				6E10CD1C9BDB1D5CBD1D5DA0 /* Pods-ZENetworkingTests.debug.xcconfig */,
+				E767972D793F2DA9FF0A5938 /* Pods-ZENetworkingTests.release.xcconfig */,
+				139FFC43F9F07011E89A96EB /* Pods-ZENetworkingUITests.debug.xcconfig */,
+				5B5F87A075DE337D2D096AAF /* Pods-ZENetworkingUITests.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		54176E8B1D79391600A82646 /* ZENetWorking */ = {
+		542A6E211D76BFC2001E7EE0 /* ZENetworking */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 54176EB41D79391700A82646 /* Build configuration list for PBXNativeTarget "ZENetWorking" */;
+			buildConfigurationList = 542A6E4A1D76BFC3001E7EE0 /* Build configuration list for PBXNativeTarget "ZENetworking" */;
 			buildPhases = (
-				54176E881D79391600A82646 /* Sources */,
-				54176E891D79391600A82646 /* Frameworks */,
-				54176E8A1D79391600A82646 /* Resources */,
+				56587DD49AA0DB5ECC30C010 /* [CP] Check Pods Manifest.lock */,
+				542A6E1E1D76BFC2001E7EE0 /* Sources */,
+				542A6E1F1D76BFC2001E7EE0 /* Frameworks */,
+				542A6E201D76BFC2001E7EE0 /* Resources */,
+				33FB1630269914D81927D0BE /* [CP] Embed Pods Frameworks */,
+				90752016DDDD776A56A9C6FE /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = ZENetWorking;
-			productName = ZENetWorking;
-			productReference = 54176E8C1D79391600A82646 /* ZENetWorking.app */;
+			name = ZENetworking;
+			productName = ZENetworking;
+			productReference = 542A6E221D76BFC2001E7EE0 /* ZENetworking.app */;
 			productType = "com.apple.product-type.application";
 		};
-		54176E9F1D79391700A82646 /* ZENetWorkingTests */ = {
+		542A6E351D76BFC3001E7EE0 /* ZENetworkingTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 54176EB71D79391700A82646 /* Build configuration list for PBXNativeTarget "ZENetWorkingTests" */;
+			buildConfigurationList = 542A6E4D1D76BFC3001E7EE0 /* Build configuration list for PBXNativeTarget "ZENetworkingTests" */;
 			buildPhases = (
-				54176E9C1D79391700A82646 /* Sources */,
-				54176E9D1D79391700A82646 /* Frameworks */,
-				54176E9E1D79391700A82646 /* Resources */,
+				1BE33BB00F4845042863C188 /* [CP] Check Pods Manifest.lock */,
+				542A6E321D76BFC3001E7EE0 /* Sources */,
+				542A6E331D76BFC3001E7EE0 /* Frameworks */,
+				542A6E341D76BFC3001E7EE0 /* Resources */,
+				96D8EDD88DF97CE2602BD200 /* [CP] Embed Pods Frameworks */,
+				54ED262F31529396B11BAC06 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				54176EA21D79391700A82646 /* PBXTargetDependency */,
+				542A6E381D76BFC3001E7EE0 /* PBXTargetDependency */,
 			);
-			name = ZENetWorkingTests;
-			productName = ZENetWorkingTests;
-			productReference = 54176EA01D79391700A82646 /* ZENetWorkingTests.xctest */;
+			name = ZENetworkingTests;
+			productName = ZENetworkingTests;
+			productReference = 542A6E361D76BFC3001E7EE0 /* ZENetworkingTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		54176EAA1D79391700A82646 /* ZENetWorkingUITests */ = {
+		542A6E401D76BFC3001E7EE0 /* ZENetworkingUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 54176EBA1D79391700A82646 /* Build configuration list for PBXNativeTarget "ZENetWorkingUITests" */;
+			buildConfigurationList = 542A6E501D76BFC3001E7EE0 /* Build configuration list for PBXNativeTarget "ZENetworkingUITests" */;
 			buildPhases = (
-				54176EA71D79391700A82646 /* Sources */,
-				54176EA81D79391700A82646 /* Frameworks */,
-				54176EA91D79391700A82646 /* Resources */,
+				B7B56E7787191A0AE8E41282 /* [CP] Check Pods Manifest.lock */,
+				542A6E3D1D76BFC3001E7EE0 /* Sources */,
+				542A6E3E1D76BFC3001E7EE0 /* Frameworks */,
+				542A6E3F1D76BFC3001E7EE0 /* Resources */,
+				57936724A66918711D5D8687 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				54176EAD1D79391700A82646 /* PBXTargetDependency */,
+				542A6E431D76BFC3001E7EE0 /* PBXTargetDependency */,
 			);
-			name = ZENetWorkingUITests;
-			productName = ZENetWorkingUITests;
-			productReference = 54176EAB1D79391700A82646 /* ZENetWorkingUITests.xctest */;
+			name = ZENetworkingUITests;
+			productName = ZENetworkingUITests;
+			productReference = 542A6E411D76BFC3001E7EE0 /* ZENetworkingUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		54176E841D79391600A82646 /* Project object */ = {
+		542A6E1A1D76BFC2001E7EE0 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0730;
 				LastUpgradeCheck = 0730;
 				ORGANIZATIONNAME = zhangll;
 				TargetAttributes = {
-					54176E8B1D79391600A82646 = {
+					542A6E211D76BFC2001E7EE0 = {
 						CreatedOnToolsVersion = 7.3.1;
 					};
-					54176E9F1D79391700A82646 = {
+					542A6E351D76BFC3001E7EE0 = {
 						CreatedOnToolsVersion = 7.3.1;
-						TestTargetID = 54176E8B1D79391600A82646;
+						TestTargetID = 542A6E211D76BFC2001E7EE0;
 					};
-					54176EAA1D79391700A82646 = {
+					542A6E401D76BFC3001E7EE0 = {
 						CreatedOnToolsVersion = 7.3.1;
-						TestTargetID = 54176E8B1D79391600A82646;
+						TestTargetID = 542A6E211D76BFC2001E7EE0;
 					};
 				};
 			};
-			buildConfigurationList = 54176E871D79391600A82646 /* Build configuration list for PBXProject "ZENetWorking" */;
+			buildConfigurationList = 542A6E1D1D76BFC2001E7EE0 /* Build configuration list for PBXProject "ZENetworking" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -212,37 +297,38 @@
 				en,
 				Base,
 			);
-			mainGroup = 54176E831D79391600A82646;
-			productRefGroup = 54176E8D1D79391600A82646 /* Products */;
+			mainGroup = 542A6E191D76BFC2001E7EE0;
+			productRefGroup = 542A6E231D76BFC2001E7EE0 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				54176E8B1D79391600A82646 /* ZENetWorking */,
-				54176E9F1D79391700A82646 /* ZENetWorkingTests */,
-				54176EAA1D79391700A82646 /* ZENetWorkingUITests */,
+				542A6E211D76BFC2001E7EE0 /* ZENetworking */,
+				542A6E351D76BFC3001E7EE0 /* ZENetworkingTests */,
+				542A6E401D76BFC3001E7EE0 /* ZENetworkingUITests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		54176E8A1D79391600A82646 /* Resources */ = {
+		542A6E201D76BFC2001E7EE0 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				54176E9A1D79391700A82646 /* LaunchScreen.storyboard in Resources */,
-				54176E971D79391700A82646 /* Assets.xcassets in Resources */,
-				54176E951D79391600A82646 /* Main.storyboard in Resources */,
+				542A6E301D76BFC3001E7EE0 /* LaunchScreen.storyboard in Resources */,
+				542A6E2D1D76BFC3001E7EE0 /* Assets.xcassets in Resources */,
+				5445D3D01D77FB7900C34BDD /* ZENoNetView.xib in Resources */,
+				542A6E2B1D76BFC3001E7EE0 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		54176E9E1D79391700A82646 /* Resources */ = {
+		542A6E341D76BFC3001E7EE0 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		54176EA91D79391700A82646 /* Resources */ = {
+		542A6E3F1D76BFC3001E7EE0 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -251,60 +337,191 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		1BE33BB00F4845042863C188 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		33FB1630269914D81927D0BE /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ZENetworking/Pods-ZENetworking-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		54ED262F31529396B11BAC06 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ZENetworkingTests/Pods-ZENetworkingTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		56587DD49AA0DB5ECC30C010 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		57936724A66918711D5D8687 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ZENetworkingUITests/Pods-ZENetworkingUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		90752016DDDD776A56A9C6FE /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ZENetworking/Pods-ZENetworking-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		96D8EDD88DF97CE2602BD200 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ZENetworkingTests/Pods-ZENetworkingTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B7B56E7787191A0AE8E41282 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
-		54176E881D79391600A82646 /* Sources */ = {
+		542A6E1E1D76BFC2001E7EE0 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				54176E921D79391600A82646 /* ViewController.swift in Sources */,
-				54176E901D79391600A82646 /* AppDelegate.swift in Sources */,
+				5445D3D81D782EE800C34BDD /* ZEResource.swift in Sources */,
+				542A6E281D76BFC3001E7EE0 /* ViewController.swift in Sources */,
+				546295E21D77D8C700F581E1 /* ZENetAPI.swift in Sources */,
+				5445D3D61D78132800C34BDD /* ZEHUD.swift in Sources */,
+				542A6E261D76BFC3001E7EE0 /* AppDelegate.swift in Sources */,
+				542A6E5C1D76D2F3001E7EE0 /* ZENetworkItem.swift in Sources */,
+				542A6E5E1D76D304001E7EE0 /* ZENetworkManager.swift in Sources */,
+				546295D81D77C60200F581E1 /* ZEExtension.swift in Sources */,
+				546295E01D77D43D00F581E1 /* ZENoNetView.swift in Sources */,
+				542A6E5A1D76CC52001E7EE0 /* ZENetRequest.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		54176E9C1D79391700A82646 /* Sources */ = {
+		542A6E321D76BFC3001E7EE0 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				54176EA51D79391700A82646 /* ZENetWorkingTests.swift in Sources */,
+				542A6E3B1D76BFC3001E7EE0 /* ZENetworkingTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		54176EA71D79391700A82646 /* Sources */ = {
+		542A6E3D1D76BFC3001E7EE0 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				54176EB01D79391700A82646 /* ZENetWorkingUITests.swift in Sources */,
+				542A6E461D76BFC3001E7EE0 /* ZENetworkingUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		54176EA21D79391700A82646 /* PBXTargetDependency */ = {
+		542A6E381D76BFC3001E7EE0 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 54176E8B1D79391600A82646 /* ZENetWorking */;
-			targetProxy = 54176EA11D79391700A82646 /* PBXContainerItemProxy */;
+			target = 542A6E211D76BFC2001E7EE0 /* ZENetworking */;
+			targetProxy = 542A6E371D76BFC3001E7EE0 /* PBXContainerItemProxy */;
 		};
-		54176EAD1D79391700A82646 /* PBXTargetDependency */ = {
+		542A6E431D76BFC3001E7EE0 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 54176E8B1D79391600A82646 /* ZENetWorking */;
-			targetProxy = 54176EAC1D79391700A82646 /* PBXContainerItemProxy */;
+			target = 542A6E211D76BFC2001E7EE0 /* ZENetworking */;
+			targetProxy = 542A6E421D76BFC3001E7EE0 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		54176E931D79391600A82646 /* Main.storyboard */ = {
+		542A6E291D76BFC3001E7EE0 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				54176E941D79391600A82646 /* Base */,
+				542A6E2A1D76BFC3001E7EE0 /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		54176E981D79391700A82646 /* LaunchScreen.storyboard */ = {
+		542A6E2E1D76BFC3001E7EE0 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				54176E991D79391700A82646 /* Base */,
+				542A6E2F1D76BFC3001E7EE0 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -312,7 +529,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		54176EB21D79391700A82646 /* Debug */ = {
+		542A6E481D76BFC3001E7EE0 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -358,7 +575,7 @@
 			};
 			name = Debug;
 		};
-		54176EB31D79391700A82646 /* Release */ = {
+		542A6E491D76BFC3001E7EE0 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -397,111 +614,126 @@
 			};
 			name = Release;
 		};
-		54176EB51D79391700A82646 /* Debug */ = {
+		542A6E4B1D76BFC3001E7EE0 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1A7BF432C698F2E714C39D9A /* Pods-ZENetworking.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = ZENetWorking/Info.plist;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = ZENetworking/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.yamoo.ZENetWorking;
+				PRODUCT_BUNDLE_IDENTIFIER = com.yamoo.ZENetworking;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "ZENetworking/ZENetworking-Bridging-Header.h";
 			};
 			name = Debug;
 		};
-		54176EB61D79391700A82646 /* Release */ = {
+		542A6E4C1D76BFC3001E7EE0 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 380B6C13DB0BF66FD336E617 /* Pods-ZENetworking.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = ZENetWorking/Info.plist;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = ZENetworking/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.yamoo.ZENetWorking;
+				PRODUCT_BUNDLE_IDENTIFIER = com.yamoo.ZENetworking;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "ZENetworking/ZENetworking-Bridging-Header.h";
 			};
 			name = Release;
 		};
-		54176EB81D79391700A82646 /* Debug */ = {
+		542A6E4E1D76BFC3001E7EE0 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6E10CD1C9BDB1D5CBD1D5DA0 /* Pods-ZENetworkingTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
-				INFOPLIST_FILE = ZENetWorkingTests/Info.plist;
+				INFOPLIST_FILE = ZENetworkingTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.yamoo.ZENetWorkingTests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.yamoo.ZENetworkingTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZENetWorking.app/ZENetWorking";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZENetworking.app/ZENetworking";
 			};
 			name = Debug;
 		};
-		54176EB91D79391700A82646 /* Release */ = {
+		542A6E4F1D76BFC3001E7EE0 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E767972D793F2DA9FF0A5938 /* Pods-ZENetworkingTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
-				INFOPLIST_FILE = ZENetWorkingTests/Info.plist;
+				INFOPLIST_FILE = ZENetworkingTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.yamoo.ZENetWorkingTests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.yamoo.ZENetworkingTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZENetWorking.app/ZENetWorking";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZENetworking.app/ZENetworking";
 			};
 			name = Release;
 		};
-		54176EBB1D79391700A82646 /* Debug */ = {
+		542A6E511D76BFC3001E7EE0 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 139FFC43F9F07011E89A96EB /* Pods-ZENetworkingUITests.debug.xcconfig */;
 			buildSettings = {
-				INFOPLIST_FILE = ZENetWorkingUITests/Info.plist;
+				INFOPLIST_FILE = ZENetworkingUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.yamoo.ZENetWorkingUITests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.yamoo.ZENetworkingUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_TARGET_NAME = ZENetWorking;
+				TEST_TARGET_NAME = ZENetworking;
 			};
 			name = Debug;
 		};
-		54176EBC1D79391700A82646 /* Release */ = {
+		542A6E521D76BFC3001E7EE0 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5B5F87A075DE337D2D096AAF /* Pods-ZENetworkingUITests.release.xcconfig */;
 			buildSettings = {
-				INFOPLIST_FILE = ZENetWorkingUITests/Info.plist;
+				INFOPLIST_FILE = ZENetworkingUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.yamoo.ZENetWorkingUITests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.yamoo.ZENetworkingUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_TARGET_NAME = ZENetWorking;
+				TEST_TARGET_NAME = ZENetworking;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		54176E871D79391600A82646 /* Build configuration list for PBXProject "ZENetWorking" */ = {
+		542A6E1D1D76BFC2001E7EE0 /* Build configuration list for PBXProject "ZENetworking" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				54176EB21D79391700A82646 /* Debug */,
-				54176EB31D79391700A82646 /* Release */,
+				542A6E481D76BFC3001E7EE0 /* Debug */,
+				542A6E491D76BFC3001E7EE0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		54176EB41D79391700A82646 /* Build configuration list for PBXNativeTarget "ZENetWorking" */ = {
+		542A6E4A1D76BFC3001E7EE0 /* Build configuration list for PBXNativeTarget "ZENetworking" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				54176EB51D79391700A82646 /* Debug */,
-				54176EB61D79391700A82646 /* Release */,
+				542A6E4B1D76BFC3001E7EE0 /* Debug */,
+				542A6E4C1D76BFC3001E7EE0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
-		54176EB71D79391700A82646 /* Build configuration list for PBXNativeTarget "ZENetWorkingTests" */ = {
+		542A6E4D1D76BFC3001E7EE0 /* Build configuration list for PBXNativeTarget "ZENetworkingTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				54176EB81D79391700A82646 /* Debug */,
-				54176EB91D79391700A82646 /* Release */,
+				542A6E4E1D76BFC3001E7EE0 /* Debug */,
+				542A6E4F1D76BFC3001E7EE0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
-		54176EBA1D79391700A82646 /* Build configuration list for PBXNativeTarget "ZENetWorkingUITests" */ = {
+		542A6E501D76BFC3001E7EE0 /* Build configuration list for PBXNativeTarget "ZENetworkingUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				54176EBB1D79391700A82646 /* Debug */,
-				54176EBC1D79391700A82646 /* Release */,
+				542A6E511D76BFC3001E7EE0 /* Debug */,
+				542A6E521D76BFC3001E7EE0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 54176E841D79391600A82646 /* Project object */;
+	rootObject = 542A6E1A1D76BFC2001E7EE0 /* Project object */;
 }

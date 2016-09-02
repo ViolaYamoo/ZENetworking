@@ -1,15 +1,15 @@
 //
-//  ZENetWorkingTests.swift
-//  ZENetWorkingTests
+//  ZENetworkingTests.swift
+//  ZENetworkingTests
 //
-//  Created by zhangll on 16/9/2.
+//  Created by zhangll on 16/8/31.
 //  Copyright © 2016年 zhangll. All rights reserved.
 //
 
 import XCTest
-@testable import ZENetWorking
+@testable import ZENetworking
 
-class ZENetWorkingTests: XCTestCase {
+class ZENetworkingTests: XCTestCase {
     
     override func setUp() {
         super.setUp()

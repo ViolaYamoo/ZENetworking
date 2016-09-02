@@ -4,7 +4,7 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
-		<key>ZENetWorking.xcscheme</key>
+		<key>ZENetworking.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
 			<integer>0</integer>
@@ -12,17 +12,17 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>54176E8B1D79391600A82646</key>
+		<key>542A6E211D76BFC2001E7EE0</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>54176E9F1D79391700A82646</key>
+		<key>542A6E351D76BFC3001E7EE0</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>54176EAA1D79391700A82646</key>
+		<key>542A6E401D76BFC3001E7EE0</key>
 		<dict>
 			<key>primary</key>
 			<true/>

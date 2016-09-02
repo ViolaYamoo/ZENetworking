@@ -14,10 +14,10 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "54176E8B1D79391600A82646"
-               BuildableName = "ZENetWorking.app"
-               BlueprintName = "ZENetWorking"
-               ReferencedContainer = "container:ZENetWorking.xcodeproj">
+               BlueprintIdentifier = "542A6E211D76BFC2001E7EE0"
+               BuildableName = "ZENetworking.app"
+               BlueprintName = "ZENetworking"
+               ReferencedContainer = "container:ZENetworking.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -32,30 +32,30 @@
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "54176E9F1D79391700A82646"
-               BuildableName = "ZENetWorkingTests.xctest"
-               BlueprintName = "ZENetWorkingTests"
-               ReferencedContainer = "container:ZENetWorking.xcodeproj">
+               BlueprintIdentifier = "542A6E351D76BFC3001E7EE0"
+               BuildableName = "ZENetworkingTests.xctest"
+               BlueprintName = "ZENetworkingTests"
+               ReferencedContainer = "container:ZENetworking.xcodeproj">
             </BuildableReference>
          </TestableReference>
          <TestableReference
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "54176EAA1D79391700A82646"
-               BuildableName = "ZENetWorkingUITests.xctest"
-               BlueprintName = "ZENetWorkingUITests"
-               ReferencedContainer = "container:ZENetWorking.xcodeproj">
+               BlueprintIdentifier = "542A6E401D76BFC3001E7EE0"
+               BuildableName = "ZENetworkingUITests.xctest"
+               BlueprintName = "ZENetworkingUITests"
+               ReferencedContainer = "container:ZENetworking.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "54176E8B1D79391600A82646"
-            BuildableName = "ZENetWorking.app"
-            BlueprintName = "ZENetWorking"
-            ReferencedContainer = "container:ZENetWorking.xcodeproj">
+            BlueprintIdentifier = "542A6E211D76BFC2001E7EE0"
+            BuildableName = "ZENetworking.app"
+            BlueprintName = "ZENetworking"
+            ReferencedContainer = "container:ZENetworking.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -75,10 +75,10 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "54176E8B1D79391600A82646"
-            BuildableName = "ZENetWorking.app"
-            BlueprintName = "ZENetWorking"
-            ReferencedContainer = "container:ZENetWorking.xcodeproj">
+            BlueprintIdentifier = "542A6E211D76BFC2001E7EE0"
+            BuildableName = "ZENetworking.app"
+            BlueprintName = "ZENetworking"
+            ReferencedContainer = "container:ZENetworking.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -94,10 +94,10 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "54176E8B1D79391600A82646"
-            BuildableName = "ZENetWorking.app"
-            BlueprintName = "ZENetWorking"
-            ReferencedContainer = "container:ZENetWorking.xcodeproj">
+            BlueprintIdentifier = "542A6E211D76BFC2001E7EE0"
+            BuildableName = "ZENetworking.app"
+            BlueprintName = "ZENetworking"
+            ReferencedContainer = "container:ZENetworking.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>
