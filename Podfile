@@ -5,7 +5,6 @@ use_frameworks!
 target 'ZENetworking' do
   # Comment this line if you're not using Swift and don't want to use dynamic
   
-    pod 'YYCache'
     pod 'FMDB'
     pod 'MJRefresh'                 #上拉加载下拉刷新
     pod 'MBProgressHUD'             #等待动画指示
