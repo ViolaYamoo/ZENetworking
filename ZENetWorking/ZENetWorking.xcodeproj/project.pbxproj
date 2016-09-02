@@ -1,0 +1,507 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		54176E901D79391600A82646 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54176E8F1D79391600A82646 /* AppDelegate.swift */; };
+		54176E921D79391600A82646 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54176E911D79391600A82646 /* ViewController.swift */; };
+		54176E951D79391600A82646 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 54176E931D79391600A82646 /* Main.storyboard */; };
+		54176E971D79391700A82646 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 54176E961D79391700A82646 /* Assets.xcassets */; };
+		54176E9A1D79391700A82646 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 54176E981D79391700A82646 /* LaunchScreen.storyboard */; };
+		54176EA51D79391700A82646 /* ZENetWorkingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54176EA41D79391700A82646 /* ZENetWorkingTests.swift */; };
+		54176EB01D79391700A82646 /* ZENetWorkingUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54176EAF1D79391700A82646 /* ZENetWorkingUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		54176EA11D79391700A82646 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 54176E841D79391600A82646 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 54176E8B1D79391600A82646;
+			remoteInfo = ZENetWorking;
+		};
+		54176EAC1D79391700A82646 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 54176E841D79391600A82646 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 54176E8B1D79391600A82646;
+			remoteInfo = ZENetWorking;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		54176E8C1D79391600A82646 /* ZENetWorking.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZENetWorking.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		54176E8F1D79391600A82646 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		54176E911D79391600A82646 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		54176E941D79391600A82646 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		54176E961D79391700A82646 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		54176E991D79391700A82646 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		54176E9B1D79391700A82646 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		54176EA01D79391700A82646 /* ZENetWorkingTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZENetWorkingTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		54176EA41D79391700A82646 /* ZENetWorkingTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZENetWorkingTests.swift; sourceTree = "<group>"; };
+		54176EA61D79391700A82646 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		54176EAB1D79391700A82646 /* ZENetWorkingUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZENetWorkingUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		54176EAF1D79391700A82646 /* ZENetWorkingUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZENetWorkingUITests.swift; sourceTree = "<group>"; };
+		54176EB11D79391700A82646 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		54176E891D79391600A82646 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		54176E9D1D79391700A82646 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		54176EA81D79391700A82646 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		54176E831D79391600A82646 = {
+			isa = PBXGroup;
+			children = (
+				54176E8E1D79391600A82646 /* ZENetWorking */,
+				54176EA31D79391700A82646 /* ZENetWorkingTests */,
+				54176EAE1D79391700A82646 /* ZENetWorkingUITests */,
+				54176E8D1D79391600A82646 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		54176E8D1D79391600A82646 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				54176E8C1D79391600A82646 /* ZENetWorking.app */,
+				54176EA01D79391700A82646 /* ZENetWorkingTests.xctest */,
+				54176EAB1D79391700A82646 /* ZENetWorkingUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		54176E8E1D79391600A82646 /* ZENetWorking */ = {
+			isa = PBXGroup;
+			children = (
+				54176E8F1D79391600A82646 /* AppDelegate.swift */,
+				54176E911D79391600A82646 /* ViewController.swift */,
+				54176E931D79391600A82646 /* Main.storyboard */,
+				54176E961D79391700A82646 /* Assets.xcassets */,
+				54176E981D79391700A82646 /* LaunchScreen.storyboard */,
+				54176E9B1D79391700A82646 /* Info.plist */,
+			);
+			path = ZENetWorking;
+			sourceTree = "<group>";
+		};
+		54176EA31D79391700A82646 /* ZENetWorkingTests */ = {
+			isa = PBXGroup;
+			children = (
+				54176EA41D79391700A82646 /* ZENetWorkingTests.swift */,
+				54176EA61D79391700A82646 /* Info.plist */,
+			);
+			path = ZENetWorkingTests;
+			sourceTree = "<group>";
+		};
+		54176EAE1D79391700A82646 /* ZENetWorkingUITests */ = {
+			isa = PBXGroup;
+			children = (
+				54176EAF1D79391700A82646 /* ZENetWorkingUITests.swift */,
+				54176EB11D79391700A82646 /* Info.plist */,
+			);
+			path = ZENetWorkingUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		54176E8B1D79391600A82646 /* ZENetWorking */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 54176EB41D79391700A82646 /* Build configuration list for PBXNativeTarget "ZENetWorking" */;
+			buildPhases = (
+				54176E881D79391600A82646 /* Sources */,
+				54176E891D79391600A82646 /* Frameworks */,
+				54176E8A1D79391600A82646 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ZENetWorking;
+			productName = ZENetWorking;
+			productReference = 54176E8C1D79391600A82646 /* ZENetWorking.app */;
+			productType = "com.apple.product-type.application";
+		};
+		54176E9F1D79391700A82646 /* ZENetWorkingTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 54176EB71D79391700A82646 /* Build configuration list for PBXNativeTarget "ZENetWorkingTests" */;
+			buildPhases = (
+				54176E9C1D79391700A82646 /* Sources */,
+				54176E9D1D79391700A82646 /* Frameworks */,
+				54176E9E1D79391700A82646 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				54176EA21D79391700A82646 /* PBXTargetDependency */,
+			);
+			name = ZENetWorkingTests;
+			productName = ZENetWorkingTests;
+			productReference = 54176EA01D79391700A82646 /* ZENetWorkingTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		54176EAA1D79391700A82646 /* ZENetWorkingUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 54176EBA1D79391700A82646 /* Build configuration list for PBXNativeTarget "ZENetWorkingUITests" */;
+			buildPhases = (
+				54176EA71D79391700A82646 /* Sources */,
+				54176EA81D79391700A82646 /* Frameworks */,
+				54176EA91D79391700A82646 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				54176EAD1D79391700A82646 /* PBXTargetDependency */,
+			);
+			name = ZENetWorkingUITests;
+			productName = ZENetWorkingUITests;
+			productReference = 54176EAB1D79391700A82646 /* ZENetWorkingUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		54176E841D79391600A82646 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = zhangll;
+				TargetAttributes = {
+					54176E8B1D79391600A82646 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					54176E9F1D79391700A82646 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 54176E8B1D79391600A82646;
+					};
+					54176EAA1D79391700A82646 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 54176E8B1D79391600A82646;
+					};
+				};
+			};
+			buildConfigurationList = 54176E871D79391600A82646 /* Build configuration list for PBXProject "ZENetWorking" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 54176E831D79391600A82646;
+			productRefGroup = 54176E8D1D79391600A82646 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				54176E8B1D79391600A82646 /* ZENetWorking */,
+				54176E9F1D79391700A82646 /* ZENetWorkingTests */,
+				54176EAA1D79391700A82646 /* ZENetWorkingUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		54176E8A1D79391600A82646 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				54176E9A1D79391700A82646 /* LaunchScreen.storyboard in Resources */,
+				54176E971D79391700A82646 /* Assets.xcassets in Resources */,
+				54176E951D79391600A82646 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		54176E9E1D79391700A82646 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		54176EA91D79391700A82646 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		54176E881D79391600A82646 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				54176E921D79391600A82646 /* ViewController.swift in Sources */,
+				54176E901D79391600A82646 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		54176E9C1D79391700A82646 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				54176EA51D79391700A82646 /* ZENetWorkingTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		54176EA71D79391700A82646 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				54176EB01D79391700A82646 /* ZENetWorkingUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		54176EA21D79391700A82646 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 54176E8B1D79391600A82646 /* ZENetWorking */;
+			targetProxy = 54176EA11D79391700A82646 /* PBXContainerItemProxy */;
+		};
+		54176EAD1D79391700A82646 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 54176E8B1D79391600A82646 /* ZENetWorking */;
+			targetProxy = 54176EAC1D79391700A82646 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		54176E931D79391600A82646 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				54176E941D79391600A82646 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		54176E981D79391700A82646 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				54176E991D79391700A82646 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		54176EB21D79391700A82646 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		54176EB31D79391700A82646 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		54176EB51D79391700A82646 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ZENetWorking/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.yamoo.ZENetWorking;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		54176EB61D79391700A82646 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ZENetWorking/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.yamoo.ZENetWorking;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		54176EB81D79391700A82646 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ZENetWorkingTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.yamoo.ZENetWorkingTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZENetWorking.app/ZENetWorking";
+			};
+			name = Debug;
+		};
+		54176EB91D79391700A82646 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ZENetWorkingTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.yamoo.ZENetWorkingTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZENetWorking.app/ZENetWorking";
+			};
+			name = Release;
+		};
+		54176EBB1D79391700A82646 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ZENetWorkingUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.yamoo.ZENetWorkingUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ZENetWorking;
+			};
+			name = Debug;
+		};
+		54176EBC1D79391700A82646 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ZENetWorkingUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.yamoo.ZENetWorkingUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ZENetWorking;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		54176E871D79391600A82646 /* Build configuration list for PBXProject "ZENetWorking" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				54176EB21D79391700A82646 /* Debug */,
+				54176EB31D79391700A82646 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		54176EB41D79391700A82646 /* Build configuration list for PBXNativeTarget "ZENetWorking" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				54176EB51D79391700A82646 /* Debug */,
+				54176EB61D79391700A82646 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		54176EB71D79391700A82646 /* Build configuration list for PBXNativeTarget "ZENetWorkingTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				54176EB81D79391700A82646 /* Debug */,
+				54176EB91D79391700A82646 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		54176EBA1D79391700A82646 /* Build configuration list for PBXNativeTarget "ZENetWorkingUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				54176EBB1D79391700A82646 /* Debug */,
+				54176EBC1D79391700A82646 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 54176E841D79391600A82646 /* Project object */;
+}
